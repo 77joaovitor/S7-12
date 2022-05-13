@@ -23,13 +23,15 @@ const product =[
 
 const body = document.querySelector("body")
 
-    const main = document.querySelector("main")
+    const main = document.createElement("main")
         body.appendChild(main)
 
-    const product_list = document.querySelector("ul")
+    const product_list = document.createElement("ul")
         main.appendChild(product_list)
 
     const section = document.querySelector("section") 
+    const h1 = document.querySelector("h1")
+    product_list.appendChild(h1)
            
       
 
